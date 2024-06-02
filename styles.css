@@ -1,0 +1,129 @@
+.bodyIndex {
+  margin: 0;
+  padding: 0;
+  background-image: url(imagenes/Paisaje.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  position: relative;
+  background-attachment: scroll;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(36, 42, 51);
+  height: 100px;
+}
+.titulo {
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.textoIndex {
+  background-color: rgba(250, 250, 250, 90%);
+  padding: 50px;
+  position: absolute;
+  margin: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/*Estilos del menu*/
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+
+/*Pagina de Estudios*/
+.bodyEstudios {
+  margin: 0;
+  padding: 0;
+  background-image: url(imagenes/Azul.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  position: relative;
+}
+.textoEstudios {
+  background-color: rgba(250, 250, 250, 90%);
+  padding: 50px;
+  margin: 30px;
+  position: relative;
+  margin: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/*Pagina de metas*/
+.bodyMetas {
+  margin: 0;
+  padding: 0;
+  background-image: url(imagenes/Playa.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  position: relative;
+}
+.textoMetas {
+  background-color: rgba(250, 250, 250, 90%);
+  padding: 70px;
+  margin: 30px;
+  position: relative;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/*Pagina Deportes-- Tabla*/
+.style-tabla {
+  color: black;
+  font-size: 14px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  background-color: rgb(240, 255, 240);
+  position: relative;
+  padding: 20px;
+  font-size: 20px;
+}
+.style-tabla thead tr {
+  background-color: rgb(144, 238, 144);
+  text-align: middle;
+  border-collapse: collapse;
+  border: 1px solid black;
+  position: relative;
+}
+.style-tabla th,
+.style-tabla td {
+  padding: 20px 30px;
+  border-collapse: collapse;
+  border: 2px solid #c8e2cc;
+  position: relative;
+}
+
+.bodyDeportes {
+  margin: 0;
+  padding: 0px;
+  background-image: url(imagenes/Pastoverde.png);
+  background-size: cover;
+  background-repeat: repeat;
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.tablaDeportes {
+  padding: 70px;
+  margin: 30px;
+  background-color: rgba(253, 253, 253, 80%);
+  position: relative;
+  border-radius: 5px;
+}
